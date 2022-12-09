@@ -1,0 +1,23 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bg-custom{
+	background: #283593 !important;
+	color:white;
+}
+
+.navbar .nav-item:hover .nav-link{
+	background: white;
+	color: black;
+	border-radius: 2px;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
